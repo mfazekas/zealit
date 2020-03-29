@@ -24,6 +24,6 @@
     "traverse": "0.6.6"
   },
   "react-native": {
-    "util": false,
+    "util": false
   }
 }
