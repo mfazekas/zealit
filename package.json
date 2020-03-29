@@ -25,6 +25,5 @@
   },
   "react-native": {
     "util": false,
-    "traverse": false 
   }
 }
