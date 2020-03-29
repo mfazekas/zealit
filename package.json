@@ -21,7 +21,7 @@
     "eslint-plugin-react": "~6.3.0"
   },
   "dependencies": {
-    "traverse": "0.6.6",
+    "traverse": "0.6.6"
   },
   "react-native": {
     "util": false
