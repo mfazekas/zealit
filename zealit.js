@@ -1,9 +1,10 @@
 const isReactNative = (typeof(navigator) === 'object') && (navigator !== null) && navigator.product === 'ReactNative';
 const util = !isReactNative && require('util')
-const traverse = require('traverse')
 
-const util = require('util');
-console.log("???? UTIL", util);
+const util2 = require('util');
+console.log("???? UTIL", util2);
+
+const traverse = require('traverse')
 
 const fnHasOwnProperty = Object.prototype.hasOwnProperty
 const globalOption = {
