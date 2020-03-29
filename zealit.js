@@ -2,6 +2,9 @@ const isReactNative = (typeof(navigator) === 'object') && (navigator !== null) &
 const util = !isReactNative && require('util')
 const traverse = require('traverse')
 
+const util = require('util');
+console.log("???? UTIL", util);
+
 const fnHasOwnProperty = Object.prototype.hasOwnProperty
 const globalOption = {
     ignore: [
